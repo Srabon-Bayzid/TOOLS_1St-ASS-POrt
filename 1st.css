@@ -1,0 +1,232 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 1380.5px; */
+    padding: 0 90px;
+height: 110.5px;
+flex-shrink: 0;
+}
+.div-1 h3{
+    /* margin-left: 230px; */
+    color: var(--Dark-01, #181818);
+font-family: "Open Sans";
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.R{
+    color: #FD6E0A;
+font-family: "Open Sans";
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.child-div h5{
+    color: var(--Dark-02, #474747);
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.but-1{
+    color: var(--White-Color, #FFF);
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+button{
+    width: 150px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FD6E0A;
+border: none;
+margin-top: 10px;
+}
+.child-div{
+    display: flex;
+    /* justify-content: space-between; */
+    gap:51px;
+    justify-content: center;
+}
+
+
+
+
+
+/* Nav-Banner-Start */
+
+.Nav-Banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-image: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: 650px 400px;
+    background-position: right bottom;
+    min-height: 600px;
+    position: relative;
+}
+
+.div-3{
+    flex: 1;
+    max-width: 55%;
+    z-index: 2;
+    position: relative;
+}
+.div-3 h4{
+    color: var(--Dark-02, #474747);
+font-family: "Open Sans";
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 0px;
+}
+.div-3 h3{
+    color: var(--Dark-01, #181818);
+font-family: "Open Sans";
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  margin: 0;           
+  margin-top: 5px;   
+}
+.div-3 p{
+    color: var(--Dark-03, #757575);
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+width: 585px;
+}
+
+.but-2{
+    width: 150px;
+height: 64px;
+background: var(--White-Color, #FFF);
+border-radius: 5px;
+border: 1px solid #FD6E0A;
+}
+
+.button-2{
+    display: flex;
+    gap:30px;
+}
+.div-4{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+.div-4 img{
+    width: 460px;
+    height: 540px;
+    object-fit: cover;
+    position: relative;
+    z-index: 3;
+    margin-top: 60px;
+}
+
+.Nav-Banner::after {
+    content: "";
+    position: absolute;
+    top: -110px;
+    right: 0;
+    width: 40%; 
+    height: calc(100% + 110px);
+    background-color:#FFF8F3;
+    z-index: -1; 
+}
+
+.left-img{
+    /* display: flex; */
+    /* align-items: flex-start; */
+    margin-top: 30;
+}
+.left-img img{
+    margin-top: 0;
+    width:80px;
+}
+.second_nd_div{
+    margin-top: 40px;
+    /* margin-right: ; */
+}
+header{
+    display: flex;
+    
+}
+/* main-sectin */
+
+
+.div-5 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    padding: 120px 90px;
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    
+}
+
+.about-me {
+    border: 1px solid #000;   
+    padding: 40px 40px;
+    max-width: 800px;         
+    text-align: center;
+    border-radius: 10px;
+    background: white;  
+    /* margin-top: 50px;     */
+}
+
+.H4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+   margin-bottom: 30px;
+}
+
+.Paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    flex-wrap: wrap;  
+    font-size: 14px;
+    text-align: left;  
+    
+}
+
+.extra div {
+    flex: 1; /* make them equal width */
+    display: flex;
+    flex-direction: column;
+}
+
+.extra span {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
